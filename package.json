@@ -38,17 +38,16 @@
     "url": "https://github.com/emersonbottero/vitepress-plugin-mermaid/issues"
   },
   "homepage": "https://github.com/emersonbottero/vitepress-plugin-mermaid#readme",
-  "peerDependencies": {
-    "mermaid": "10 || 11",
-    "vitepress": "^2.0.0 || ^2.0.0-alpha"
-  },
   "optionalDependencies": {
     "@mermaid-js/mermaid-mindmap": "^9.3.0"
   },
   "devDependencies": {
-    "vite-plugin-dts": "^3.0.3",
-    "vite-plugin-static-copy": "^0.13.1",
-    "vitepress": "^2.0.0",
-    "vite": "5"
+    "vite": "6.4.3",
+    "vite-plugin-dts": "5.0.3",
+    "vite-plugin-static-copy": "4.1.1",
+    "vitepress": "2.0.0-alpha.9"
+  },
+  "dependencies": {
+    "mermaid": "11.16.0"
   }
 }
