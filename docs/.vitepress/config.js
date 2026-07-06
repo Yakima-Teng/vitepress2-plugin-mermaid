@@ -11,7 +11,7 @@ export default withMermaid(
     lang: "en-US",
     title: "VitePress Plugin Mermaid",
     description: "Mermaid support for vitepress",
-    base: "/vitepress-plugin-mermaid/",
+    base: "/vitepress2-plugin-mermaid/",
     lastUpdated: true,
 
     themeConfig: {
@@ -24,7 +24,7 @@ export default withMermaid(
       socialLinks: [
         {
           icon: "github",
-          link: "https://github.com/emersonbottero/vitepress-plugin-mermaid",
+          link: "https://github.com/emersonbottero/vitepress2-plugin-mermaid",
         },
       ],
 

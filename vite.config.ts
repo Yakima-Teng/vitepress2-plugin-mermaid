@@ -27,8 +27,8 @@ export default defineConfig({
       name: "MermaidPlugin",
       fileName: (format: string) =>
         format == "es"
-          ? `vitepress-plugin-mermaid.${format}.mjs`
-          : `vitepress-plugin-mermaid.${format}.js`,
+          ? `vitepress2-plugin-mermaid.${format}.mjs`
+          : `vitepress2-plugin-mermaid.${format}.js`,
     },
     rollupOptions: {
       // make sure to externalize deps that shouldn't be bundled

@@ -26,10 +26,10 @@ In case you set an base you should prefix images with it.
 
 ```mmd
 graph LR;
-    K([<img src='/vitepress-plugin-mermaid/K.png' width='60' >])-.->G((<img id='git' src='/vitepress-plugin-mermaid/Octocat.png' width='50' >));
-    H([<img id='helm' src='/vitepress-plugin-mermaid/helm.png' width='60' >])-.->G
+    K([<img src='/vitepress2-plugin-mermaid/K.png' width='60' >])-.->G((<img id='git' src='/vitepress2-plugin-mermaid/Octocat.png' width='50' >));
+    H([<img id='helm' src='/vitepress2-plugin-mermaid/helm.png' width='60' >])-.->G
     G-->A;
-    A(<img src='/vitepress-plugin-mermaid/argo-cd.png' width='60' >)-->D(<img src='/vitepress-plugin-mermaid/ocp.png' width='60' >);
+    A(<img src='/vitepress2-plugin-mermaid/argo-cd.png' width='60' >)-->D(<img src='/vitepress2-plugin-mermaid/ocp.png' width='60' >);
 classDef img fill:none,color:transparent,stroke:none,borderRadius:50px
 class G,D,A,K,H,B img
 click K "https://kustomize.io/" _blank
@@ -45,10 +45,10 @@ Kustomize and github are links in here!
 
 ```mermaid
 graph LR;
-    K([<img src='/vitepress-plugin-mermaid/K.png' width='60' >])-.->G((<img id='git' src='/vitepress-plugin-mermaid/Octocat.png' width='50' >));
-    H([<img id='helm' src='/vitepress-plugin-mermaid/helm.png' width='60' >])-.->G
+    K([<img src='/vitepress2-plugin-mermaid/K.png' width='60' >])-.->G((<img id='git' src='/vitepress2-plugin-mermaid/Octocat.png' width='50' >));
+    H([<img id='helm' src='/vitepress2-plugin-mermaid/helm.png' width='60' >])-.->G
     G-->A;
-    A(<img src='/vitepress-plugin-mermaid/argo-cd.png' width='60' >)-->D(<img src='/vitepress-plugin-mermaid/ocp.png' width='60' >);
+    A(<img src='/vitepress2-plugin-mermaid/argo-cd.png' width='60' >)-->D(<img src='/vitepress2-plugin-mermaid/ocp.png' width='60' >);
 classDef img fill:none,color:transparent,stroke:none,borderRadius:50px
 class G,D,A,K,H,B img
 click K "https://kustomize.io/" _blank

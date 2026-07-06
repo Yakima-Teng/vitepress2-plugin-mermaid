@@ -22,13 +22,13 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/vitepress-plugin-mermaid.umd.js",
-  "module": "./dist/vitepress-plugin-mermaid.es.mjs",
+  "main": "./dist/vitepress2-plugin-mermaid.umd.js",
+  "module": "./dist/vitepress2-plugin-mermaid.es.mjs",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/vitepress-plugin-mermaid.es.mjs",
-      "require": "./dist/vitepress-plugin-mermaid.umd.js"
+      "import": "./dist/vitepress2-plugin-mermaid.es.mjs",
+      "require": "./dist/vitepress2-plugin-mermaid.umd.js"
     },
     "./Mermaid.vue": "./dist/src/Mermaid.vue"
   },
