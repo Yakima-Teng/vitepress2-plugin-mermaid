@@ -25,7 +25,7 @@ export const withMermaid = (config: UserConfig) => {
 
   if (!config.vite) config.vite = {};
   if (!config.vite.plugins) config.vite.plugins = [];
-  config.vite.plugins.push(MermaidPlugin(config.mermaid));
+  config.vite.plugins.push(MermaidPlugin(config.mermaid) as any);
   if (!config.vite.optimizeDeps) config.vite.optimizeDeps = {};
   if (!config.vite.optimizeDeps.include) config.vite.optimizeDeps.include = [];
 

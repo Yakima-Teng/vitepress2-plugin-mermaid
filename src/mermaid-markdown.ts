@@ -1,7 +1,18 @@
-export const MermaidMarkdown = (md, pluginOptions) => {
-  const fence = md.renderer.rules.fence.bind(md.renderer.rules);
+import type { MermaidPluginConfig } from "./mermaid-plugin";
 
-  md.renderer.rules.fence = (tokens, index, options, env, slf) => {
+export const MermaidMarkdown = (
+  md: any,
+  pluginOptions?: MermaidPluginConfig
+) => {
+  const fence = md.renderer.rules.fence;
+
+  md.renderer.rules.fence = (
+    tokens: any[],
+    index: number,
+    options: any,
+    env: any,
+    slf: any
+  ) => {
     const token = tokens[index];
 
     if (token.info.trim() === "mermaid") {
@@ -25,11 +36,10 @@ export const MermaidMarkdown = (md, pluginOptions) => {
       }
     }
 
-    // //Allow to write fences to highlight mermaid code itself (Shiki's default is also mermaid)
     if (token.info.trim() === "mmd") {
       tokens[index].info = "mermaid";
     }
 
-    return fence(tokens, index, options, env, slf);
+    return fence ? fence(tokens, index, options, env, slf) : "";
   };
 };
