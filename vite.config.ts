@@ -1,5 +1,3 @@
-// const path = require("path");
-// const { defineConfig } = require("vite");
 import path from "path";
 import { defineConfig } from "vite";
 import { viteStaticCopy } from "vite-plugin-static-copy";
@@ -12,10 +10,12 @@ export default defineConfig({
         {
           src: "src/Mermaid.vue",
           dest: "./",
+          rename: { stripBase: 1 }, // strips `bin/`
         },
         {
           src: "src/mermaid.ts",
           dest: "./",
+          rename: { stripBase: 1 }, // strips `bin/`
         },
       ],
     }),
