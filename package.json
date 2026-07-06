@@ -1,6 +1,6 @@
 {
   "name": "vitepress2-plugin-mermaid",
-  "version": "2.0.19",
+  "version": "2.0.20",
   "description": "Add mermaid support for Vitepress",
   "type": "module",
   "types": "./dist/index.d.ts",
