@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/emersonbottero/vitepress-plugin-mermaid.git"
+    "url": "git+https://github.com/Yakima-Teng/vitepress2-plugin-mermaid.git"
   },
   "files": [
     "dist"
@@ -30,18 +30,18 @@
       "import": "./dist/vitepress-plugin-mermaid.es.mjs",
       "require": "./dist/vitepress-plugin-mermaid.umd.js"
     },
-    "./Mermaid.vue": "./dist/Mermaid.vue"
+    "./Mermaid.vue": "./dist/src/Mermaid.vue"
   },
   "keywords": [
     "vitepress",
     "mermaid"
   ],
-  "author": "Emerson Bottero",
+  "author": "Yakima",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/emersonbottero/vitepress-plugin-mermaid/issues"
+    "url": "https://github.com/Yakima-Teng/vitepress2-plugin-mermaid/issues"
   },
-  "homepage": "https://github.com/emersonbottero/vitepress-plugin-mermaid#readme",
+  "homepage": "https://github.com/Yakima-Teng/vitepress2-plugin-mermaid#readme",
   "optionalDependencies": {
     "@mermaid-js/mermaid-mindmap": "^9.3.0"
   },
